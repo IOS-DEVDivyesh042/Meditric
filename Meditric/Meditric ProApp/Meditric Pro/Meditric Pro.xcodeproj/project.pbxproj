@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		616F246A2AE592D200ADD796 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616F24692AE592D200ADD796 /* AppDelegate.swift */; };
+		616F246C2AE592D200ADD796 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616F246B2AE592D200ADD796 /* SceneDelegate.swift */; };
+		616F246E2AE592D200ADD796 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616F246D2AE592D200ADD796 /* ViewController.swift */; };
+		616F24712AE592D200ADD796 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 616F246F2AE592D200ADD796 /* Main.storyboard */; };
+		616F24732AE592D400ADD796 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 616F24722AE592D400ADD796 /* Assets.xcassets */; };
+		616F24762AE592D400ADD796 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 616F24742AE592D400ADD796 /* LaunchScreen.storyboard */; };
+		616F24852AE5936700ADD796 /* Calcium.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616F247F2AE5936700ADD796 /* Calcium.swift */; };
+		616F24862AE5936700ADD796 /* Calcitonin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616F24802AE5936700ADD796 /* Calcitonin.swift */; };
+		616F24872AE5936700ADD796 /* Creatinine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616F24812AE5936700ADD796 /* Creatinine.swift */; };
+		616F24882AE5936700ADD796 /* Carbamazepine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616F24822AE5936700ADD796 /* Carbamazepine.swift */; };
+		616F24892AE5936700ADD796 /* Copper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616F24832AE5936700ADD796 /* Copper.swift */; };
+		616F248A2AE5936700ADD796 /* Cortisol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616F24842AE5936700ADD796 /* Cortisol.swift */; };
+		616F24922AE5975100ADD796 /* SidemenuVCc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616F248C2AE5975100ADD796 /* SidemenuVCc.swift */; };
+		616F24932AE5975100ADD796 /* SidemenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616F248D2AE5975100ADD796 /* SidemenuVC.swift */; };
+		616F24942AE5975100ADD796 /* FeedbackVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616F248E2AE5975100ADD796 /* FeedbackVC.swift */; };
+		616F24952AE5975100ADD796 /* sidemenuTblCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616F248F2AE5975100ADD796 /* sidemenuTblCell.swift */; };
+		616F24962AE5975100ADD796 /* Abtsvc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616F24902AE5975100ADD796 /* Abtsvc.swift */; };
+		616F24972AE5975100ADD796 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616F24912AE5975100ADD796 /* Helper.swift */; };
+		A9549564A666A114C048F850 /* Pods_Meditric_Pro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43C1A584F9C63973A4B1BF9E /* Pods_Meditric_Pro.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		43C1A584F9C63973A4B1BF9E /* Pods_Meditric_Pro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Meditric_Pro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		616F24662AE592D200ADD796 /* Meditric Pro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Meditric Pro.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		616F24692AE592D200ADD796 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		616F246B2AE592D200ADD796 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		616F246D2AE592D200ADD796 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		616F24702AE592D200ADD796 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		616F24722AE592D400ADD796 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		616F24752AE592D400ADD796 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		616F24772AE592D400ADD796 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		616F247F2AE5936700ADD796 /* Calcium.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Calcium.swift; sourceTree = "<group>"; };
+		616F24802AE5936700ADD796 /* Calcitonin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Calcitonin.swift; sourceTree = "<group>"; };
+		616F24812AE5936700ADD796 /* Creatinine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Creatinine.swift; sourceTree = "<group>"; };
+		616F24822AE5936700ADD796 /* Carbamazepine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Carbamazepine.swift; sourceTree = "<group>"; };
+		616F24832AE5936700ADD796 /* Copper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Copper.swift; sourceTree = "<group>"; };
+		616F24842AE5936700ADD796 /* Cortisol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cortisol.swift; sourceTree = "<group>"; };
+		616F248C2AE5975100ADD796 /* SidemenuVCc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SidemenuVCc.swift; sourceTree = "<group>"; };
+		616F248D2AE5975100ADD796 /* SidemenuVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SidemenuVC.swift; sourceTree = "<group>"; };
+		616F248E2AE5975100ADD796 /* FeedbackVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedbackVC.swift; sourceTree = "<group>"; };
+		616F248F2AE5975100ADD796 /* sidemenuTblCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = sidemenuTblCell.swift; sourceTree = "<group>"; };
+		616F24902AE5975100ADD796 /* Abtsvc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Abtsvc.swift; sourceTree = "<group>"; };
+		616F24912AE5975100ADD796 /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		819E3028F22EBB94BA3E1C0C /* Pods-Meditric Pro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Meditric Pro.release.xcconfig"; path = "Target Support Files/Pods-Meditric Pro/Pods-Meditric Pro.release.xcconfig"; sourceTree = "<group>"; };
+		EA0623BE590EE72B0815A766 /* Pods-Meditric Pro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Meditric Pro.debug.xcconfig"; path = "Target Support Files/Pods-Meditric Pro/Pods-Meditric Pro.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		616F24632AE592D200ADD796 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9549564A666A114C048F850 /* Pods_Meditric_Pro.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A9B934D88BBFB67D1E123C9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EA0623BE590EE72B0815A766 /* Pods-Meditric Pro.debug.xcconfig */,
+				819E3028F22EBB94BA3E1C0C /* Pods-Meditric Pro.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		4A1C14527C5C4A758975A121 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				43C1A584F9C63973A4B1BF9E /* Pods_Meditric_Pro.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		616F245D2AE592D200ADD796 = {
+			isa = PBXGroup;
+			children = (
+				616F24682AE592D200ADD796 /* Meditric Pro */,
+				616F24672AE592D200ADD796 /* Products */,
+				3A9B934D88BBFB67D1E123C9 /* Pods */,
+				4A1C14527C5C4A758975A121 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		616F24672AE592D200ADD796 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				616F24662AE592D200ADD796 /* Meditric Pro.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		616F24682AE592D200ADD796 /* Meditric Pro */ = {
+			isa = PBXGroup;
+			children = (
+				616F24692AE592D200ADD796 /* AppDelegate.swift */,
+				616F246B2AE592D200ADD796 /* SceneDelegate.swift */,
+				616F246D2AE592D200ADD796 /* ViewController.swift */,
+				616F248B2AE5975100ADD796 /* Sidemenufile */,
+				616F247E2AE5936700ADD796 /* Conveterfile */,
+				616F246F2AE592D200ADD796 /* Main.storyboard */,
+				616F24722AE592D400ADD796 /* Assets.xcassets */,
+				616F24742AE592D400ADD796 /* LaunchScreen.storyboard */,
+				616F24772AE592D400ADD796 /* Info.plist */,
+			);
+			path = "Meditric Pro";
+			sourceTree = "<group>";
+		};
+		616F247E2AE5936700ADD796 /* Conveterfile */ = {
+			isa = PBXGroup;
+			children = (
+				616F247F2AE5936700ADD796 /* Calcium.swift */,
+				616F24802AE5936700ADD796 /* Calcitonin.swift */,
+				616F24812AE5936700ADD796 /* Creatinine.swift */,
+				616F24822AE5936700ADD796 /* Carbamazepine.swift */,
+				616F24832AE5936700ADD796 /* Copper.swift */,
+				616F24842AE5936700ADD796 /* Cortisol.swift */,
+			);
+			path = Conveterfile;
+			sourceTree = "<group>";
+		};
+		616F248B2AE5975100ADD796 /* Sidemenufile */ = {
+			isa = PBXGroup;
+			children = (
+				616F248C2AE5975100ADD796 /* SidemenuVCc.swift */,
+				616F248D2AE5975100ADD796 /* SidemenuVC.swift */,
+				616F248E2AE5975100ADD796 /* FeedbackVC.swift */,
+				616F248F2AE5975100ADD796 /* sidemenuTblCell.swift */,
+				616F24902AE5975100ADD796 /* Abtsvc.swift */,
+				616F24912AE5975100ADD796 /* Helper.swift */,
+			);
+			path = Sidemenufile;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		616F24652AE592D200ADD796 /* Meditric Pro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 616F247A2AE592D400ADD796 /* Build configuration list for PBXNativeTarget "Meditric Pro" */;
+			buildPhases = (
+				CC99A8AFDC5551FF4945AA42 /* [CP] Check Pods Manifest.lock */,
+				616F24622AE592D200ADD796 /* Sources */,
+				616F24632AE592D200ADD796 /* Frameworks */,
+				616F24642AE592D200ADD796 /* Resources */,
+				BEB47D7ADD3D34D84B45FF33 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Meditric Pro";
+			productName = "Meditric Pro";
+			productReference = 616F24662AE592D200ADD796 /* Meditric Pro.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		616F245E2AE592D200ADD796 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					616F24652AE592D200ADD796 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = 616F24612AE592D200ADD796 /* Build configuration list for PBXProject "Meditric Pro" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 616F245D2AE592D200ADD796;
+			productRefGroup = 616F24672AE592D200ADD796 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				616F24652AE592D200ADD796 /* Meditric Pro */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		616F24642AE592D200ADD796 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				616F24762AE592D400ADD796 /* LaunchScreen.storyboard in Resources */,
+				616F24732AE592D400ADD796 /* Assets.xcassets in Resources */,
+				616F24712AE592D200ADD796 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BEB47D7ADD3D34D84B45FF33 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Meditric Pro/Pods-Meditric Pro-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Meditric Pro/Pods-Meditric Pro-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Meditric Pro/Pods-Meditric Pro-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC99A8AFDC5551FF4945AA42 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Meditric Pro-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		616F24622AE592D200ADD796 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				616F24922AE5975100ADD796 /* SidemenuVCc.swift in Sources */,
+				616F24892AE5936700ADD796 /* Copper.swift in Sources */,
+				616F24972AE5975100ADD796 /* Helper.swift in Sources */,
+				616F248A2AE5936700ADD796 /* Cortisol.swift in Sources */,
+				616F24932AE5975100ADD796 /* SidemenuVC.swift in Sources */,
+				616F246E2AE592D200ADD796 /* ViewController.swift in Sources */,
+				616F24942AE5975100ADD796 /* FeedbackVC.swift in Sources */,
+				616F246A2AE592D200ADD796 /* AppDelegate.swift in Sources */,
+				616F24952AE5975100ADD796 /* sidemenuTblCell.swift in Sources */,
+				616F24852AE5936700ADD796 /* Calcium.swift in Sources */,
+				616F24872AE5936700ADD796 /* Creatinine.swift in Sources */,
+				616F24962AE5975100ADD796 /* Abtsvc.swift in Sources */,
+				616F24862AE5936700ADD796 /* Calcitonin.swift in Sources */,
+				616F24882AE5936700ADD796 /* Carbamazepine.swift in Sources */,
+				616F246C2AE592D200ADD796 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		616F246F2AE592D200ADD796 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				616F24702AE592D200ADD796 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		616F24742AE592D400ADD796 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				616F24752AE592D400ADD796 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		616F24782AE592D400ADD796 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		616F24792AE592D400ADD796 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		616F247B2AE592D400ADD796 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA0623BE590EE72B0815A766 /* Pods-Meditric Pro.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Meditric Pro/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Meditric Pro";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.firstproject.Meditric-Pro";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		616F247C2AE592D400ADD796 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 819E3028F22EBB94BA3E1C0C /* Pods-Meditric Pro.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Meditric Pro/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Meditric Pro";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.firstproject.Meditric-Pro";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		616F24612AE592D200ADD796 /* Build configuration list for PBXProject "Meditric Pro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				616F24782AE592D400ADD796 /* Debug */,
+				616F24792AE592D400ADD796 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		616F247A2AE592D400ADD796 /* Build configuration list for PBXNativeTarget "Meditric Pro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				616F247B2AE592D400ADD796 /* Debug */,
+				616F247C2AE592D400ADD796 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 616F245E2AE592D200ADD796 /* Project object */;
+}
